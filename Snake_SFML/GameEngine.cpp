@@ -4,7 +4,8 @@
 
 
 GameEngine::GameEngine()
-	: world(data.settings),
+	: data(),
+	  world(data.settings),
 	  menu(NULL),
 	  window(NULL)
 {
