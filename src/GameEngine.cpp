@@ -31,7 +31,7 @@ void GameEngine::run()
 	{
 		logLevel = LOG_ERROR;
 		outLog << "GameEngine::run(): NULL window ptr";
-		throw new std::exception("NULL window ptr");
+		throw new std::runtime_error("NULL window ptr");
 	}
 
 	data.state = MAIN_MENU;

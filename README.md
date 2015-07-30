@@ -1,9 +1,8 @@
 snake-sfml
 ==========
-Simple Snake game made using SFML.
 
-How to play: Press enter in the main menu to start the game. Then use W, A, S, D or the arrow keys to change directions, or press Escape to exit the game.
+Simple Snake game made in C++ using SFML.  
 
-The snake (green) always goes forward. Eat fruits (the red balls) to gain points. After eating, the snake grows, and every three fruits it eats, it accelerates. If the snake bites itself, it loses one life and starts over, but keeps the points earned. When it loses its three lives, everything including points gets reset.
+How to play: Press enter in the main menu to start the game. In-game, use WASD or the arrow keys to change directions, and press Escape to exit the game.  
 
-I plan on adding many features and improving the code itself (more comments, less public member variables...), but this small project is not my top priority so it could take some time.
+The snake (green) always goes forward. Eat fruits (the red balls) to gain points. After eating, the snake grows, and every three fruits it eats, it accelerates. If the snake bites itself, you lose one life and start over, but you keep the points you earned. When you lose your three lives, everything including your points gets reset.  
