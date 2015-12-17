@@ -2,10 +2,10 @@
 
 #include <vector>
 
-#include "AEntity.h"
 #include "Food.h"
-#include "GameSettings.h"
 #include "Snake.h"
+#include "AEntity.h"
+#include "GameSettings.h"
 
 
 class WorldManager
